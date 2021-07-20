@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+.container{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+.item-list{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 10px;
+}
+.items{
+    display: flex;
+    border: #e2e2e2 1px solid;
+    position: relative;
+    flex-direction: column;
+    width: 300px;
+}
+.boots{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 300px;
+}
+.caption{
+    font-size: 20px;
+}
+.price{
+    color: #333333;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.price-boots{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.description{
+    font-size: 15px;
+    color: #666666;
+}
+p{
+    margin: 0;
+}
+
+.img{
+    width: 100%;
+    height: 205px;
+    background-color: #E2E2E2;
+}
+.top{
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+}
+.btn{
+    width: 50px;
+    height: 40px;
+    border-radius: 10%;
+    border-color: #4ed17b;
+	background: url("cart.png") no-repeat center;
+    background-color: #4ed17b;
+    align-self: center;
+    /*background-repeat: no-repeat;
+    background-position: center;*/
+}
+.btn img{
+    background-color: white;
+}
+.context{
+    padding: 30px 25px;
+}
